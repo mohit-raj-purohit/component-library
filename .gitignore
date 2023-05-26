@@ -1,5 +1,7 @@
-# Node Modules
+# Package Generated Files/Modules
 node_modules
-
-# Dist Folder
 dist
+# .storybook
+
+# ENV
+.npmrc
