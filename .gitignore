@@ -1,6 +1,8 @@
 # Package Generated Files/Modules
 node_modules
 dist
+.jest-test-results.json
+storybook-static
 # .storybook
 
 # ENV
