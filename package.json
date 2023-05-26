@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/mohit-raj-purohit"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A custom React component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -47,9 +47,10 @@
     "@storybook/addon-jest": "^7.0.17",
     "@storybook/addon-links": "^7.0.17",
     "@storybook/blocks": "^7.0.17",
+    "@storybook/jest": "^0.1.0",
     "@storybook/react": "^7.0.17",
     "@storybook/react-webpack5": "^7.0.17",
-    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/testing-library": "^0.1.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.1",
