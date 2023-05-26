@@ -1,9 +1,9 @@
 {
-  "name": "@ankurvishnoi123/uni-jamstack",
+  "name": "@mohit-raj-purohit/component-library",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/ankurvishnoi123"
+    "registry": "https://npm.pkg.github.com/mohit-raj-purohit"
   },
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "A custom React component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
