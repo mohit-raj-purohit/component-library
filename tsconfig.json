@@ -25,7 +25,7 @@
     "paths": {
       "component-library": ["src/index.ts"] // Path mappings for module resolution
     },
-    "types": [ "node" ],
+    "types": [ "cypress", "node", "jest", "@testing-library/jest-dom" ],
     "typeRoots": [
       "node_modules/@types", // Default type roots
       "src/component/index.d.ts" // Additional type roots
