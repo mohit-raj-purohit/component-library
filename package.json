@@ -1,9 +1,9 @@
 {
   "name": "@mohit-raj-purohit/component-library",
   "publishConfig": {
-    "@mohit-raj-purohit:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/mohit-raj-purohit"
   },
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "A custom React component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
