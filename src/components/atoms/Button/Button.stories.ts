@@ -17,7 +17,9 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
 	args: {
-		label: 'Button'
+		label: 'Button',
+		customColor: 'red',
+		hoverColor: 'black'
 	},
 	play: async ({ args, canvasElement }) => {
 		const canvas = within(canvasElement);

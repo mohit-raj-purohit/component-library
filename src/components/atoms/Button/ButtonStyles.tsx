@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 import isPropValid from '@emotion/is-prop-valid';
 
-interface StyledButtonProps {
+export interface StyledButtonProps {
 	customColor?: string;
     hoverColor?: string;
 }
