@@ -2,8 +2,6 @@ import React from 'react';
 import type { Preview } from '@storybook/react';
 import { withTests } from '@storybook/addon-jest';
 import results from '../.jest-test-results.json';
-import { ThemeProvider } from '@emotion/react';
-import theme from '../src/theme';
 
 const preview: Preview = {
 	parameters: {
@@ -41,9 +39,9 @@ const preview: Preview = {
 			results,
 		}),
 		(Story: any) => (
-			<ThemeProvider theme={theme}>
+			<div>
 				<Story />
-			</ThemeProvider>
+			</div>
 		),
 	],
 };
