@@ -3,6 +3,6 @@ node_modules
 dist
 .jest-test-results.json
 # .storybook
-
+.storybook-static
 # ENV
 .npmrc
