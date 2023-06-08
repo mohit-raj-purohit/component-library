@@ -6,6 +6,7 @@ import { within, userEvent } from '@storybook/testing-library';
 const meta = {
 	title: 'Atoms/Button',
 	component: Button,
+	tags: ['autodocs'],
 	argTypes: {
 		onClick: { action: true },
 	},
@@ -18,7 +19,7 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
 	args: {
 		label: 'Button',
-		customColor: 'red',
+		// color: 'red',
 		hoverColor: 'black'
 	},
 	play: async ({ args, canvasElement }) => {

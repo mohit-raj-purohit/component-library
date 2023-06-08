@@ -20,8 +20,9 @@
     "test": "jest",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json || true",
     "storybook": "storybook dev -p 6006",
-    "storybook:dev": "run-s test:generate-output storybook",
     "build-storybook": "storybook build",
+    "storybook:dev": "run-s test:generate-output storybook",
+    "storybook:build": "run-s test:generate-output build-storybook",
     "build": "run-s lint test rollup"
   },
   "jest": {
@@ -42,6 +43,7 @@
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.1",
     "@storybook/addon-a11y": "^7.0.17",
+    "@storybook/addon-docs": "^7.0.18",
     "@storybook/addon-essentials": "^7.0.17",
     "@storybook/addon-interactions": "^7.0.17",
     "@storybook/addon-jest": "^7.0.17",

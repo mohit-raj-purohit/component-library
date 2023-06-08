@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import isPropValid from '@emotion/is-prop-valid';
 
 export interface StyledButtonProps {
-	customColor?: string;
+	color?: string;
     hoverColor?: string;
 }
 
@@ -22,11 +22,11 @@ const styles = css`
 
 export const StyledButton = styled('button', {
 	shouldForwardProp: (prop) =>
-		isPropValid(prop) && prop !== 'customColor' && prop !== 'hoverColor',
+		isPropValid(prop) && prop !== 'color' && prop !== 'hoverColor',
 })<StyledButtonProps>(
 	(props) => css`
 		${styles};
-		color: ${props.customColor};
+		color: ${props.color || props.theme.colors.white};
 		&:hover {
 			color: ${props.hoverColor};
 		}
