@@ -6,7 +6,8 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     '@storybook/addon-jest',
-    '@storybook/addon-a11y'
+    '@storybook/addon-a11y',
+    "@storybook/preset-scss"
   ],
   framework: {
     name: "@storybook/react-webpack5",
