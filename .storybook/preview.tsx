@@ -2,6 +2,7 @@ import React from 'react';
 import type { Preview } from '@storybook/react';
 import { withTests } from '@storybook/addon-jest';
 import results from '../.jest-test-results.json';
+import '../src/styles/global.scss'
 
 const preview: Preview = {
 	parameters: {
