@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/mohit-raj-purohit"
   },
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "A custom React component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
