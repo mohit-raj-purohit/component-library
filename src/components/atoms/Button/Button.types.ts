@@ -1,8 +1,7 @@
 import { MouseEventHandler } from 'react';
 
 export interface ButtonProps {
-	label: string;
-	color?: string;
-	hoverColor?: string;
+	children?: any;
 	onClick?: MouseEventHandler<HTMLButtonElement>;
+	className?: string;
 }
