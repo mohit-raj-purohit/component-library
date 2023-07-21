@@ -1,16 +1,18 @@
-import React, { MouseEventHandler } from 'react';
-import { StyledButton } from './ButtonStyles';
-import { useTheme } from '@emotion/react';
-export interface ButtonProps {
-	label: string;
-	color?: string;
-	hoverColor?: string;
-	onClick?: MouseEventHandler<HTMLButtonElement>;
-}
+import React from 'react';
+import { ButtonProps } from './Button.types';
+import './Button.scss';
 
-const Button = (props: ButtonProps) => {
-	const theme = useTheme();
-	return <StyledButton theme={theme} color={props.color} hoverColor={props.hoverColor} onClick={props.onClick}>{props.label}</StyledButton>;
+const Button: React.FC<ButtonProps> = ({
+	className,
+	children,
+	onClick,
+	...rest
+}) => {
+	return (
+		<button className={`rcl-btn ${className}`} {...rest} onClick={onClick}>
+			{children}
+		</button>
+	);
 };
 
 export default Button;

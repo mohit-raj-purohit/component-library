@@ -6,7 +6,7 @@ import Button from './Button';
 describe('Button', () => {
 	it('renders with correct text', () => {
 		const buttonText = 'Click me';
-		const {getByText} = render(<Button label={buttonText} />);
+		const { getByText } = render(<Button>{buttonText}</Button>);
 		expect(getByText(buttonText)).toBeInTheDocument();
 	});
 });
